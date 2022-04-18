@@ -14,20 +14,26 @@ console.log(numArray2Anser);
 
 //3
 let numberArray3 = [1,2,3,4,5,6,7,8,9,10];
-const a = "";
-// const a = "가";
-const numVal =  a === "";
-const b =["0"];
-const c = numberArray3 [ numberArray3.length -1 ];
-  numberArray3 = numVal? b:c;
-// console.log(b);
-// console.log(c);
-console.log(numberArray3);
+const a = (arr) => {
+  if( arr.length === 0 ) return 0;
+  return numberArray3 [ numberArray3.length -1 ];
+} 
+console.log(a(""));
+console.log(a("가"));
 
+// const numVal =  a === "";
+// const b =["0"];
+// const c = numberArray3 [ numberArray3.length -1 ];
+//   numberArray3 = numVal? b:c;
+
+// const a = (arr) => {
+//   if(arr.length === 0) return 0;
+//   return arr[arr.length-1];
+// }
 
 //4
-let numberArray4 = [1,2,3,4,5,6,7,8,9,10];
-numberArray4.map();
+// let numberArray4 = [1,2,3,4,5,6,7,8,9,10];
+// numberArray4.map();
 
 
 
